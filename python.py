@@ -1,5 +1,6 @@
 def isPalindrome(str):
-	if(reverse(str)== str):
+	rev = str [::-1]
+	if(rev == str):
 		return True
 	else:
 		return False
