@@ -4,5 +4,5 @@ def isPalindrome(str):
 	else:
 		return False
 
-str = "madam"
+str = input()
 print(isPalindrome(str))
